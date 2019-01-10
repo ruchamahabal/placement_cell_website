@@ -8,6 +8,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/custom.css">
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
