@@ -1,15 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
 body {
   background: url('../img/tile.jpg') top left repeat;
 }
 
-.navbar {
-  background: RGBA(46, 48, 47, 0.6);
-}
-
-
-/* ========================= Hero Section */
 #hero-section{
   margin-top:100px;
 }
@@ -21,28 +13,132 @@ body {
 
 #hero-section h1{
   margin-top:150px;
-  font-family: "Raleway",sans-serif;
 }
 
-/* ============================ Counters Section  */
-
-#counters-section {
-  background: #000;
+#about-us2 {
+  background: #1c2022;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
-
-#counters-section span {
-  color:#fff;
-  font-size:18px;
-  margin-bottom:10px;
+#about-us2 h1 {
+  color: white;
+  font-family: protos, serif;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+#about-us2 h2 {
+  color: white;
+  font-family: protos, serif;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#about-us2 #about-somaiya {
   position: relative;
-  top: 150px;
+  left: 10%;
+  height: 400px;
+  width: 1200px;
+  background: #fff;
+  box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+#about-us2 #about-somaiya .content {
+  width: calc(50% - 50px);
+  height: 100%;
+  background: #4582EC;
+  box-sizing: border-box;
+  padding: 30px 50px;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+#about-us2 #about-somaiya .image-box {
+  width: calc(50% + 50px);
+  height: 100%;
+  background: #02B875;
+  box-sizing: border-box;
+  border-left: 100px solid #4582EC;
+  border-bottom: 400px solid transparent;
+  color: #fff;
+  background: url("../img/about-us-1.jpg");
+  background-position: -100px -140px;
+  background-repeat: no-repeat;
+}
+#about-us2 #about-txp {
+  position: relative;
+  left: 10%;
+  height: 400px;
+  width: 1200px;
+  background: #fff;
+  box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+#about-us2 #about-txp .content {
+  width: calc(50% - 50px);
+  height: 100%;
+  background: #02B875;
+  box-sizing: border-box;
+  padding: 30px 50px;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+#about-us2 #about-txp .image-box {
+  width: calc(50% + 50px);
+  height: 100%;
+  background: #02B875;
+  box-sizing: border-box;
+  color: #fff;
+  border-right: 100px solid #02B875;
+  border-bottom: 400px solid transparent;
+  background: url("../img/about-us-2.jpg");
+  background-repeat: no-repeat;
 }
 
+#about-us-mobile {
+  background: #1c2022;
+  display: none;
+  padding: 80px 0;
+}
+#about-us-mobile h1 {
+  color: white;
+  font-family: protos, serif;
+  padding-bottom: 50px;
+}
 
-#container1, #container2, #container3, #container4 {
-  margin: 50px;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  display: inline-block;
+#about-us-mobile h2 {
+  font-family: protos, serif;
+  padding: 15px;
+  font-size: 25px;
+}
+
+#about-sk-mobile-content {
+  color: #fff;
+  width: 100%;
+  height: 500px;
+  background: #039fb6;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 50px 30px 50px 30px;
+}
+
+#about-sk-mobile-image {
+  width: 100%;
+  height: 300px;
+}
+
+#about-txp-mobile-content {
+  color: #fff;
+  max-width: 100%;
+  height: 500px;
+  background: #053653;
+  box-sizing: border-box;
+  padding: 50px 30px 50px 30px;
+  margin: 0px;
+}
+
+#about-txp-mobile-image {
+  max-width: 100%;
+  height: 300px;
 }
