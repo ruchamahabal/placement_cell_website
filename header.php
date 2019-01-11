@@ -12,6 +12,8 @@
     <!-- custom css -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <script src="js/typed.js"></script>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
