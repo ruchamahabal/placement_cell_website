@@ -2,7 +2,7 @@
     <script type="text/javascript">
     var typed = new Typed('#typed1', {
         stringsElement: '#typed-strings',
-        typeSpeed: 30
+        typeSpeed: 40
       });
     </script>
 

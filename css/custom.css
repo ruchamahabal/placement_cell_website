@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Staatliches');
+
+
 body {
   background: url('../img/tile.jpg') top left repeat;
+  font-family: 'raleway',sans-serif;
 }
 
 .navbar {
@@ -18,7 +22,9 @@ body {
 }
 
 #hero-section h1{
-  margin-top:150px;
+  margin-top:80px;
+  font-family: 'Staatliches',sans-serif;
+  font-size: 70px;
 }
 
 #about-us2 {
@@ -147,6 +153,10 @@ body {
 #about-txp-mobile-image {
   max-width: 100%;
   height: auto;
+}
+
+#typed1 {
+  font-size: 25px;
 }
 
 /* ============================== Testimonials Section  */
