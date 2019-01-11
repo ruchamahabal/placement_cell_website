@@ -4,6 +4,11 @@ body {
   background: url('../img/tile.jpg') top left repeat;
 }
 
+.navbar {
+  background: RGBA(46, 48, 47, 0.6);
+}
+
+
 /* ========================= Hero Section */
 #hero-section{
   margin-top:100px;
@@ -23,11 +28,19 @@ body {
 
 #counters-section {
   background: #000;
-
 }
 
+#counters-section span {
+  color:#fff;
+  font-size:18px;
+  margin-bottom:10px;
+  position: relative;
+  top: 150px;
+}
+
+
 #container1, #container2, #container3, #container4 {
-  margin: 20px;
+  margin: 50px;
   width: 200px;
   height: 200px;
   position: relative;
