@@ -35,33 +35,41 @@
       <p>We are the PLACEMENT CELL committee which is entirely run by student’s body. And only 4 colleges in Mumbai have a student’s Placement body. Our team works selflessly for providing internship and Placement opportunity to our college students. Also we provide training to students for improving their skills. </p>
     </div>
     <div class="row">
-      <img id="about-txp-mobile-image" src="assets/images/txp-team.jpg">
+      <img id="about-txp-mobile-image" src="img/about-us-2.jpg">
     </div>
   </div>
-  <div id="about-us2">
-  <h1 class="heading"><center>ABOUT US</center></h1>
-  <section id="about-somaiya" class="wow fadeInUp">
-    <div class="row">
-        <div class="col content">
-          <h2>Who We Are</h2>
-          <p>We are the PLACEMENT CELL committee which is entirely run by student’s body. And only 4 colleges in Mumbai have a student’s Placement body. Our team works selflessly for providing internship and Placement opportunity to our college students. Also we provide training to students for improving their skills. </p>
-        </div>
-        <div class="col image-box">
-        </div>
-    </div>
-  </section>
-  <section id="about-txp" class="wow fadeInUp">
-    <div class="row">
-      <div class="col image-box">
-      </div>
-        <div class="col content">
+
+    <div id="about-us2">
+    <h1 class="heading"><center>ABOUT US</center></h1>
+    <section id="about-somaiya" class="wow fadeInUp">
+      <div class="row">
+          <div class="col content">
             <h2>Who We Are</h2>
             <p>We are the PLACEMENT CELL committee which is entirely run by student’s body. And only 4 colleges in Mumbai have a student’s Placement body. Our team works selflessly for providing internship and Placement opportunity to our college students. Also we provide training to students for improving their skills. </p>
+          </div>
+          <div class="col image-box">
+          </div>
+      </div>
+    </section>
+    <section id="about-txp" class="wow fadeInUp">
+      <div class="row">
+        <div class="col image-box">
         </div>
-    </div>
-  </section>
-</div>
+          <div class="col content">
+              <h2>Who We Are</h2>
+              <p>We are the PLACEMENT CELL committee which is entirely run by student’s body. And only 4 colleges in Mumbai have a student’s Placement body. Our team works selflessly for providing internship and Placement opportunity to our college students. Also we provide training to students for improving their skills. </p>
+          </div>
+      </div>
+    </section>
+  </div>
 </section>
+
+<!-- ============================================================== Testimonials Section  -->
+<section id="testimonials-section">
+  
+</section>
+
+
 
 <!-- =================================================================== Counters Section -->
 <section id="counters-section" class="">

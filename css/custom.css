@@ -123,7 +123,7 @@ body {
   color: #fff;
   width: 100%;
   height: 500px;
-  background: #039fb6;
+  background: #4582EC;
   box-sizing: border-box;
   margin: 0px;
   padding: 50px 30px 50px 30px;
@@ -131,14 +131,14 @@ body {
 
 #about-sk-mobile-image {
   width: 100%;
-  height: 300px;
+  height: auto;
 }
 
 #about-txp-mobile-content {
   color: #fff;
   max-width: 100%;
   height: 500px;
-  background: #053653;
+  background: #02B875;
   box-sizing: border-box;
   padding: 50px 30px 50px 30px;
   margin: 0px;
@@ -146,8 +146,19 @@ body {
 
 #about-txp-mobile-image {
   max-width: 100%;
-  height: 300px;
+  height: auto;
 }
+
+/* ============================== Testimonials Section  */
+
+#testimonials-section {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/testimonials-background.jpg");
+  background-size: cover;
+	background-position: center;
+	height: 100vh; /* 100% of the viewport's height */
+	background-attachment: fixed;
+}
+
 
 /* ============================ Counters Section  */
 
@@ -170,4 +181,25 @@ body {
   height: 200px;
   position: relative;
   display: inline-block;
+}
+
+/* ================================ media queries */
+@media only screen and (max-width: 400px),
+  only screen and (max-device-width: 400px) {
+    #about-us-mobile {
+   display: block;
+ }
+ #about-us2 {
+   display: none;
+ }
+}
+
+@media only screen and (max-width: 1024px),
+  only screen and (max-device-width: 1024px) {
+    #about-us-mobile {
+   display: block;
+ }
+ #about-us2 {
+   display: none;
+ }
 }
