@@ -199,4 +199,30 @@
     bar4.animate(1.0);
   </script>
 </section>
+
+<!-- ============================================== Contact Section  -->
+<section id="contact-section" style="margin:0px; padding:0;color:white;">
+  <div class="row wow fadeInUp">
+    <div class="col" style="background:#000;">
+      <div style="padding:15px;">
+        <h1 style="font-family:'raleway',sans-serif;"><i class="far fa-envelope"></i>  Email</h1>
+        <p><b>  techxposuretxp@gmail.com</b></p>
+      </div>
+      <div class="row" >
+        <div class="col" style="background-color:#4582EC;padding:15px;height:322px;">
+          <h2 style="font-family:'raleway',sans-serif;padding:35px 15px;"><i class="fas fa-map-marker-alt"></i>  Address</h2>
+          <p style="padding-left:15px;"> S. K. Somaiya College Of Arts, Science And Commerce, Vidyanagar, Vidyavihar - 77.</p>
+        </div>
+        <div class="col" style="background-color:#02B875;padding:15px;">
+          <h2 style="font-family:'raleway',sans-serif;padding:35px 15px;"><i class="fas fa-phone-volume"></i> Phone</h2>
+          <p style="padding-left:15px;">Ansul Mishra &nbsp &nbsp +91 9757204227<br>Akhilesh Nair &nbsp &nbsp  +91 9920176241</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="padding:0;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.7220134315417!2d72.89684231498232!3d19.075956087087885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c62803c5678f%3A0x22043a3283bcf437!2sS.+K.+Somaiya+Degree+College+of+Arts%2C+Science+And+Commerce!5e0!3m2!1sen!2sin!4v1542364232161" frameborder="0" style="border:0" allowfullscreen id="maps"></iframe>
+    </div>
+  </div>
+</section>
+
 <?php include 'footer.php'; ?>

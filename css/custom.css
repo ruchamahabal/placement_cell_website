@@ -4,12 +4,19 @@
 body {
   background: url('../img/tile.jpg') top left repeat;
   font-family: 'raleway',sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar {
   background: RGBA(46, 48, 47, 0.8);
 }
 
+.navbar a{
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'raleway';
+}
 /* =========================================== Hero Section  */
 
 #hero-section{
@@ -193,6 +200,13 @@ body {
   display: inline-block;
 }
 
+/* ===================================== Contact section  */
+#maps {
+  width:700px;
+  height:448px;
+}
+
+
 /* ================================ media queries */
 @media only screen and (max-width: 400px),
   only screen and (max-device-width: 400px) {
@@ -202,6 +216,13 @@ body {
  #about-us2 {
    display: none;
  }
+ .navbar a:first-child {
+   display: none;
+ }
+
+ #maps {
+    max-width: 400px;
+  }
 }
 
 @media only screen and (max-width: 1024px),
