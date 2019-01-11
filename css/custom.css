@@ -2,6 +2,12 @@ body {
   background: url('../img/tile.jpg') top left repeat;
 }
 
+.navbar {
+  background: RGBA(46, 48, 47, 0.8);
+}
+
+/* =========================================== Hero Section  */
+
 #hero-section{
   margin-top:100px;
 }
