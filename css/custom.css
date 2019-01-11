@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
   background: url('../img/tile.jpg') top left repeat;
 }
@@ -13,4 +15,5 @@ body {
 
 #hero-section h1{
   margin-top:150px;
+  font-family: "Raleway",sans-serif;
 }
