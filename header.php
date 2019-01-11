@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/custom.css">
 
     <script src="js/typed.js"></script>
+    <script src="js/progressbar.js"></script>
 
   </head>
   <body>

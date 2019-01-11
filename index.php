@@ -62,4 +62,133 @@
   </section>
 </div>
 </section>
+
+<!-- =================================================================== Counters Section -->
+<section id="counters-section" class="">
+  <center>
+
+    <div id="container1"> <span style="">PLACEMENTS</span> </div>
+    <div id="container2"><span>INTERNSHIPS</span></div>
+    <div id="container3"><span>FACEBOOK</span></div>
+    <div id="container4"><span>INSTAGRAM</span></div>
+  </center>
+
+  <script type="text/javascript">
+    var bar1 = new ProgressBar.Circle(container1, {
+    color: '#D9534F',
+    // This has to be the same size as the maximum width to
+    // prevent clipping
+    strokeWidth: 4,
+    trailWidth: 1,
+    easing: 'easeInOut',
+    duration: 1400,
+    text: {
+      autoStyleContainer: true
+    },
+    from: { color: '#D9534F', width: 1 },
+    to: { color: '#d1534f', width: 4 },
+    // Set default step function for all animate calls
+    step: function(state, circle) {
+      circle.path.setAttribute('stroke', state.color);
+      circle.path.setAttribute('stroke-width', state.width);
+      var value = Math.round(circle.value() * 345);
+      if (value === 0) {
+        circle.setText('');
+      } else {
+        circle.setText(value);
+      }
+    }
+    });
+    bar1.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+    bar1.text.style.fontSize = '2rem';
+    bar1.animate(1.0);
+
+    var bar2 = new ProgressBar.Circle(container2, {
+    color: '#F0AD4E',
+    // This has to be the same size as the maximum width to
+    // prevent clipping
+    strokeWidth: 4,
+    trailWidth: 1,
+    easing: 'easeInOut',
+    duration: 1400,
+    text: {
+      autoStyleContainer: false
+    },
+    from: { color: '#F0AD4E', width: 1 },
+    to: { color: '#e5a750', width: 4 },
+    // Set default step function for all animate calls
+    step: function(state, circle) {
+      circle.path.setAttribute('stroke', state.color);
+      circle.path.setAttribute('stroke-width', state.width);
+      var value = Math.round(circle.value() * 256);
+      if (value === 0) {
+        circle.setText('');
+      } else {
+        circle.setText(value);
+      }
+    }
+    });
+    bar2.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+    bar2.text.style.fontSize = '2rem';
+    bar2.animate(1.0);
+
+    var bar3 = new ProgressBar.Circle(container3, {
+    color: '#17A2B8',
+    // This has to be the same size as the maximum width to
+    // prevent clipping
+    strokeWidth: 4,
+    trailWidth: 1,
+    easing: 'easeInOut',
+    duration: 1400,
+    text: {
+      autoStyleContainer: false
+    },
+    from: { color: '#17A2B8', width: 1 },
+    to: { color: '#17A2B8', width: 4 },
+    // Set default step function for all animate calls
+    step: function(state, circle) {
+      circle.path.setAttribute('stroke', state.color);
+      circle.path.setAttribute('stroke-width', state.width);
+      var value = Math.round(circle.value() * 2067);
+      if (value === 0) {
+        circle.setText('');
+      } else {
+        circle.setText(value);
+      }
+    }
+    });
+    bar3.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+    bar3.text.style.fontSize = '2rem';
+    bar3.animate(1.0);
+
+    var bar4 = new ProgressBar.Circle(container4, {
+    color: '#02B875',
+    // This has to be the same size as the maximum width to
+    // prevent clipping
+    strokeWidth: 4,
+    trailWidth: 1,
+    easing: 'easeInOut',
+    duration: 1400,
+    text: {
+      autoStyleContainer: false
+    },
+    from: { color: '#02B875', width: 1 },
+    to: { color: '#02B875', width: 4 },
+    // Set default step function for all animate calls
+    step: function(state, circle) {
+      circle.path.setAttribute('stroke', state.color);
+      circle.path.setAttribute('stroke-width', state.width);
+      var value = Math.round(circle.value() * 1166);
+      if (value === 0) {
+        circle.setText('');
+      } else {
+        circle.setText(value);
+      }
+    }
+    });
+    bar4.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+    bar4.text.style.fontSize = '2rem';
+    bar4.animate(1.0);
+  </script>
+</section>
 <?php include 'footer.php'; ?>
