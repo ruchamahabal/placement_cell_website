@@ -66,7 +66,80 @@
 
 <!-- ============================================================== Testimonials Section  -->
 <section id="testimonials-section">
+  <h1 class="heading"><center>TESTIMONIALS</center></h1>
+  <section id="testimonials-desktop">
+  <div id="carousel">
+ <div class="btn-bar">
+   <div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
+ </div>
+   <div id="slides">
+       <ul>
+           <li class="slide">
+               <div class="quoteContainer">
+                   <p class="quote-phrase"><span class="quote-marks">"</span> I was literally BLOWN AWAY by Company A's work! They went above and beyond all of our expectations with design, usability. and branding, I will reccommend them to everyone I know!<class="quote-marks">"</span>
 
+                   </p>
+               </div>
+               <div class="authorContainer">
+                   <p class="quote-author">John Doe // Local Business Owner</p>
+               </div>
+           </li>
+           <li class="slide">
+               <div class="quoteContainer">
+                   <p class="quote-phrase"><span class="quote-marks">"</span>
+                     I could not stop staring! Company A's Web Solutions are by far the most elegant solutions, you can't beat their quality and attention to detail!
+                   <span class="quote-marks">"</span>
+
+                   </p>
+               </div>
+               <div class="authorContainer">
+                   <p class="quote-author">Andy Fakename // CEO: Andy's Camping Supplies</p>
+               </div>
+           </li>
+           <li class="slide">
+               <div class="quoteContainer">
+                   <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks">"</span>
+
+                   </p>
+               </div>
+               <div class="authorContainer">
+                   <p class="quote-author">Janice Falsename</p>
+               </div>
+           </li>
+       </ul>
+   </div>
+ </div>
+ </section>
+ <section id="testimonials-mobile">
+   <div class="container">
+     <div class="slider">
+         <div class="slide slide1">
+             <div class="caption">
+                 <h2>Anjali Nanda</h2>
+                 <p>The opportunity i got provided by the Placement Cell was Sushil Budhia associates. I had great experiences. I got to learn many things related to my field. It was a good exposure for me.S.K.Somaiya Placement Cell has helped me in finding the job.My expierence during that Internship was great I got to learn various new things. Great work Placement Cell .</p>
+             </div>
+         </div>
+         <div class="slide slide2">
+             <div class="caption">
+                 <h2>Bhumi Maru</h2>
+                 <p>I am very thankful to Placement Cell, as it has provided me with an opportunity to enhance my skills and to get a corporate exposure. This internship has helped me a lot, and I can definitely see a growth in me. It’s worth doing an internship. I am glad I made a right choice. Hats off to Placement Cell, your work is commendable. All the best for the future .</p>
+             </div>
+         </div>
+         <div class="slide slide3">
+             <div class="caption">
+                 <h2>Nafisa Kathanawala</h2>
+                 <p>PLACEMENT CELL gives placement and internship opportunity to all S.K. Students. It's well known now, but what isn't certain is if the job are worth it. I would just cover it up in a line "I WORK AS A PR EXECUTIVE AT SIMPLY BODY TALK AND I ENJOY MONDAY MORE THAN SUNDAY!" Satisfactory salary and amazing work .</p>
+             </div>
+         </div>
+         <div class="slide slide4">
+             <div class="caption">
+                 <h2>Manali Ganatra</h2>
+                 <p>S.K.Somaiya PLACEMENT CELL has helped me in finding the job.S.k.somaiya PLACEMENT CELL keeps in mind the fresher’s job location and job description And after that they provide accordingly to students I am thankful to S.K.Somaiya PLACEMENT CELL. For providing me a job where i can learn from scratch and also it can help me to build a strong career .</p>
+             </div>
+         </div>
+     </div>
+ </div>
+ </section>
 </section>
 
 
