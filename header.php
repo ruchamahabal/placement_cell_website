@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -17,10 +18,10 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-dark ">
+    <nav class="navbar navbar-dark navbar-fixed-top">
         <a class="navbar-brand" href="#">S. K. Placement Cell</a>
         <a href="#" class="btn btn-primary ml-auto" data-toggle="modal" data-target="#applyNow">Apply Now</a>
-        <a href="#" class="btn btn-success">Register</a>
+        <a href="register.php" class="btn btn-success">Register Now</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

@@ -225,4 +225,4 @@
   </div>
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include_once 'footer.php'; ?>
